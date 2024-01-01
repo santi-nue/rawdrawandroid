@@ -105,6 +105,7 @@ TARGETS += makecapk/lib/armeabi-v7a/lib$(APPNAME).so
 #TARGETS += makecapk/lib/x86/lib$(APPNAME).so
 #TARGETS += makecapk/lib/x86_64/lib$(APPNAME).so
 
+
 CFLAGS_ARM64:=-m64
 CFLAGS_ARM32:=-mfloat-abi=softfp -m32
 CFLAGS_x86:=-march=i686 -mtune=intel -mssse3 -mfpmath=sse -m32
