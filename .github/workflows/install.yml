@@ -41,7 +41,7 @@ jobs:
                     "cmake;3.10.2.4988404"
                     "ndk;22.1.7171670"
                     "platform-tools"
-                    "platforms;android-30"
+                    "platforms;android-28"
                     "tools"
                     # This list can probably be reduced
     - name: Build APK
